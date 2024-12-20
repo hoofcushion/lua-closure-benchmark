@@ -48,7 +48,7 @@ local function iter(t)
 end
 -- define test times
 local time=5000000
--- *
+-- control group
 push(
  function()
  end,
