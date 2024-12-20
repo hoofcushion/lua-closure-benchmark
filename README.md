@@ -90,7 +90,7 @@ The script is designed to measure the performance overhead of different types of
 
    **Result: 0.059**
 
-   - **Explanation**: Similar to outer no capture but in an inner scope, showing a slightly higher overhead due to the local variable declaration.
+   - **Explanation**: Similar to outer no capture but in an inner scope, showing a slightly performance improvement.
 
 8. **4 Upvalues**
 
