@@ -153,11 +153,11 @@ The script is designed to measure the performance overhead of different types of
 
     ```lua
     local x=1
-      (setmetatable({x=x},{
-       __call=function(ups)
-        return ups.x
-       end,
-      }))()
+    (setmetatable({x=x},{
+     __call=function(ups)
+      return ups.x
+     end,
+    }))()
     ```
 
     **Result: 2.293**
